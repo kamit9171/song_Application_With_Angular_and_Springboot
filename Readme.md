@@ -87,6 +87,39 @@ This repository contains the source code for a Song Application built with Angul
    spring.datasource.username=sa
    spring.datasource.password=
    ```
+Output of Application
+1.Default Page
+![Default home page](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/80558a9d-1c14-4e12-bcfa-21ea4a7aa213)
+
+2. Adding Song 1
+![Adding Song1](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/d2c69c20-5f49-48f2-baa1-454521973d5e)
+ 
+3. Song Added Succesfully
+![Song Added](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/0ef40ad0-bcd9-46e3-a862-1cd468b2bea9)
+
+4. View Detail Popup
+![View Details](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/26687440-7e52-41fc-9f4d-2e7dc5038d48)
+
+5. View Song Detail
+![View Song Details](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/38683e9b-6335-4175-bb7d-fc772ef63379)
+
+6. Adding Second Song
+![Adding Second Song](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/d5251aba-c904-473c-8616-4f727b580a25)
+
+7. Song updated
+![Song Updated](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/33159b47-90a0-4fc1-a2ce-3da6f41034b9)
+
+8. Deleting the Song10
+![Deleting Popup](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/39ba454a-d093-4681-be77-8524bc166fd7)
+
+9. Song Deleted Successfullt
+![Deleted successfullt](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/6ef495db-47ed-44a4-a73e-704b4781ad93)
+
+10.  Backend Service Running on Railway
+![Backend service Running](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/356a10c4-fe89-49f9-8ea8-0bb450e255a6)
+
+11. Mysql server is Running on Railway
+![MySql Databsr](https://github.com/kamit9171/song_Application_With_Angular_and_Springboot/assets/55205232/e2440f7a-96a9-4dd4-8073-087cd3c644cd)
 
 
 
