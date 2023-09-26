@@ -1,0 +1,18 @@
+<h3>View Playlist Details</h3>
+<div class="view-playlist-details">
+    <div>
+        <label><b>id:</b></label> {{ song.id }}
+    </div>
+    <div>
+        <label><b>Song Name:</b></label> {{ song.songName }}
+    </div>
+    <div>
+        <label><b>Singer Name:</b></label> {{ song.singerName }}
+    </div>
+    <div>
+        <label><b>Album Name:</b></label> {{ song.albumName }}
+    </div>
+    
+    <!-- Back button -->
+    <button class="btn btn-danger" (click)="goBack()">Back</button>
+</div>

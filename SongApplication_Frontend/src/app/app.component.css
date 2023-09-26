@@ -1,0 +1,87 @@
+/* Navbar container */
+.navbar {
+    background-color: #333; /* Background color */
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding around each link */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  /* On hover, change link color */
+  .navbar a:hover {
+    background-color: #ddd; /* Hover background color */
+    color: black; /* Hover text color */
+  }
+  
+  /* Dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    background-color: inherit; /* Inherit background color */
+    padding: 14px 16px; /* Padding around button */
+    font-family: inherit; /* Inherit font family from parent */
+    cursor: pointer;
+  }
+  
+  /* On hover, change button color */
+  .dropdown:hover .dropbtn {
+    background-color: #ddd; /* Hover background color */
+    color: black; /* Hover text color */
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Background color */
+    min-width: 160px; /* Minimum width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Box shadow */
+    z-index: 1; /* Dropdown z-index */
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px; /* Padding around each link */
+    text-decoration: none; /* Remove underlines from links */
+    display: block;
+    text-align: left;
+  }
+  
+  /* On hover, change link color */
+  .dropdown-content a:hover {
+    background-color: #ddd; /* Hover background color */
+  }
+  
+  /* Show the dropdown menu when the user hovers over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* CSS animation for navbar links */
+.navbar-nav .nav-link {
+    transition: transform 0.2s ease-in-out; /* Animation properties */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    transform: scale(1.1); /* Scale the link on hover */
+  }
+  .text-right {
+    text-align: right !important;
+  }
+  
+  

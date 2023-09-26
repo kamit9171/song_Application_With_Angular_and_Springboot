@@ -1,0 +1,28 @@
+/* Style the container for the details */
+div.view-playlist-details {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Style the labels */
+  label {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px; /* Adjust the width to your preference */
+  }
+  
+  /* Style the data values */
+  div.view-playlist-details div {
+    margin-bottom: 10px; /* Add spacing between details */
+  }
+  .btn-danger {
+    background-color: #a72828;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

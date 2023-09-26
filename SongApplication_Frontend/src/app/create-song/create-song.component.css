@@ -1,0 +1,34 @@
+/* Define a CSS class for styling form elements */
+.form-group {
+    margin-bottom: 20px; /* Add margin between form groups */
+  }
+  
+  /* Style the labels */
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  /* Style the text input fields */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  .btn-reset {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  

@@ -1,0 +1,162 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Crud Operation :Version 4</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="songs"
+            routerLinkActive="active"
+            
+          >
+            Playlist List
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="create-Song"
+            routerLinkActive="active"
+          >
+            Add Song
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</nav>
+<div appLastUpdated class="text-center text-right"></div>
+
+
+
+<h1 class="text-center mt-4">{{ title }}</h1>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Operation Project</title>
+</head>
+<body>
+  <h1>CRUD Operation Project</h1>
+
+  <p>This project is a web application that implements basic CRUD operations for managing a collection of songs. It consists of a backend developed with Spring Boot and a frontend created using Angular.</p>
+
+  <h2>Features</h2>
+  <ul>
+      <li>Create new songs with information such as song name, singer, and album name.</li>
+      <li>Read and display a list of songs.</li>
+      <li>Update the details of existing songs.</li>
+      <li>Delete songs from the collection.</li>
+  </ul>
+
+  <h2>Technologies Used</h2>
+
+  <h3>Backend:</h3>
+  <ul>
+      <li>Spring Boot</li>
+      <li>Java</li>
+      <li>RESTful API</li>
+      <li>Database (e.g., H2, MySQL, PostgreSQL, etc.)</li>
+  </ul>
+
+  <h3>Frontend:</h3>
+  <ul>
+      <li>Angular</li>
+      <li>TypeScript</li>
+      <li>HTML/CSS</li>
+      <li>Angular CLI</li>
+  </ul>
+
+  <h2>Getting Started</h2>
+
+  <h3>Prerequisites</h3>
+  <p>Before you begin, ensure you have met the following requirements:</p>
+  <ul>
+      <li>Install Java Development Kit (JDK)</li>
+      <li>Install Node.js and npm</li>
+      <li>Install Angular CLI</li>
+      <li>Set up a compatible database (if using a database)</li>
+  </ul>
+
+  <h3>Installation</h3>
+  <ol>
+      <li>Clone this repository to your local machine.</li>
+  </ol>
+
+  <pre><code>git clone https://github.com/kamit9171/crud-operation-project.git
+cd crud-operation-project</code></pre>
+<h2>Usage</h2>
+<p>Use the web interface to perform CRUD operations on the list of songs.</p>
+<ul>
+    <li>Click "Playlist List" to view the list of songs.</li>
+    <li>Click "Add Song" to create a new song.</li>
+    <li>Click "Update" to edit song details.</li>
+    <li>Click "Delete" to remove a song from the collection.</li>
+</ul>
+<h2>API Endpoints (Backend)</h2>
+<ul>
+    <li>List of songs: <code>GET /api/songs</code></li>
+    <li>Create a new song: <code>POST /api/songs</code></li>
+    <li>Get song details: <code>GET /api/songs/id</code></li>
+    <li>Update song details: <code>PUT /api/songs/id</code></li>
+    <li>Delete a song: <code>DELETE /api/songs/id</code></li>
+</ul>
+<h2>Database Configuration</h2>
+<p>If using a database, configure the database connection in the Spring Boot application properties.</p>
+<pre><code>spring.jpa.defer-datasource-initialization=true
+  spring.datasource.url=jdbc:h2:mem:usb-orm;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1;
+  spring.datasource.username=sa
+  spring.datasource.password=
+  spring.jpa.open-in-view=false
+  
+  spring.h2.console.enabled=true
+  spring.h2.console.path=/h2-console</code></pre>
+
+
+  <!-- Add the rest of the installation steps here -->
+
+
+</body>
+
+
+
+
+<footer class="footer">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Contact Us</h3>
+        <p>Email: kamit9171@gmail.com</p>
+        <p>Phone: +91 7559172220</p>
+        <p>Website: <a href="https://amit-portfolioo.netlify.com" target="_blank">https://amit-portfolioo.netlify.com</a></p>
+
+        <!-- Add any additional contact information here -->
+      </div>
+      <div class="col-md-4">
+        <h3>Follow Us</h3>
+        <p>Stay connected with us on social media:</p>
+        <!-- Add social media icons or links here -->
+      </div>
+      
+    </div>
+    <hr>
+    <p class="text-center">&copy; 2023 Amit kumar. All rights reserved.</p>
+  </div>
+</footer>
+

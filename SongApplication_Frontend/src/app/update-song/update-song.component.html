@@ -1,0 +1,31 @@
+
+
+<div class="col-md-6 offset-md-3">
+    <h3> Update Details </h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> Song Name</label>
+            <input type="text" class ="form-control" id = "songName"
+                [(ngModel)] = "song.songName" name = "songName">
+        </div>
+    
+        <div class="form-group">
+            <label> Singer Name</label>
+            <input type="text" class ="form-control" id = "singerName"
+                [(ngModel)] = "song.singerName" name = "singerName">
+        </div>
+    
+        <div class="form-group">
+            <label> Album Name </label>
+            <input type="text" class ="form-control" id = "albumName"
+                [(ngModel)] = "song.albumName" name = "albumName">
+        </div>
+    
+        <button class = "btn btn-success" type ="submit">Submit</button>
+        <button class = "btn btn-danger" type ="back">Back</button>
+    
+    </form>
+    </div> 
+
+
