@@ -1,6 +1,6 @@
 
 # Song Application With Angular and Springboot Deployed on Netlify and Railway
-https://song-application-kamit9171.netlify.app/songs
+https://song-application-kamit9171.netlify.app/
 https://songapplication-backend1-production.up.railway.app/api/v1/song
 
 This repository contains the source code for a Song Application built with Angular for the frontend and Spring Boot for the backend. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on songs and stores the data in a MySQL database. The frontend is designed using Angular Material and the application is deployed on Netlify for the frontend and Railway for the backend.
